@@ -16,7 +16,6 @@ dnf5 install fastfetch -y
 dnf5 install hyfetch -y
 dnf5 install flatpak -y 
 
-flatpak remote-delete fedora
 flatpak install --system -y flathub org.vinegarhq.Sober
 flatpak install --system -y flathub org.vinegarhq.Vinegar
 
