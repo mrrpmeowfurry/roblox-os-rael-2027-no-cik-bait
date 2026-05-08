@@ -41,6 +41,8 @@ VARIANT="Silverblue"
 VARIANT_ID=silverblue
 EOF
 
+echo "root:root" | chpasswd
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
