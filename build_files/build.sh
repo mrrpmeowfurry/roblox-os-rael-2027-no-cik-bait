@@ -19,6 +19,22 @@ dnf5 install flatpak -y
 flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install --system -y flathub org.vinegarhq.Sober
 echo "meow"
+cat > /usr/lib/os-release << 'EOF'
+NAME="roblox-os-rael-2027-no-cik-bait"
+VERSION="6.7"
+ID_LIKE="fedora"
+VERSION_ID="1.0"
+PRETTY_NAME="RobloxOSRael2027NoCikBait 1.0"
+EOF
+
+cat > /etc/os-release << 'EOF'
+NAME="roblox-os-rael-2027-no-cik-bait"
+VERSION="6.7"
+ID_LIKE="fedora"
+VERSION_ID="1.0"
+PRETTY_NAME="RobloxOSRael2027NoCikBait 1.0"
+EOF
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
