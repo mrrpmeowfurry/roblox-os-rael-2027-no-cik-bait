@@ -14,6 +14,7 @@ dnf5 install -y tmux
 
 dnf5 install fastfetch -y
 dnf5 install hyfetch -y
+dnf5 install flatpak -y 
 
 flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install --system -y sober
