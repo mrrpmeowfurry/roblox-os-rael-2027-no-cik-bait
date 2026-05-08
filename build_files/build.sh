@@ -17,7 +17,7 @@ dnf5 install hyfetch -y
 dnf5 install flatpak -y 
 
 flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install --system -y sober
+flatpak install --system -y flathub org.vinegarhq.Sober
 echo "meow"
 # Use a COPR Example:
 #
