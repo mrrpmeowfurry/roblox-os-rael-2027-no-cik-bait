@@ -22,17 +22,23 @@ echo "meow"
 cat > /usr/lib/os-release << 'EOF'
 NAME="roblox-os-rael-2027-no-cik-bait"
 VERSION="6.7"
+ID=fedora
 ID_LIKE="fedora"
-VERSION_ID="1.0"
-PRETTY_NAME="RobloxOSRael2027NoCikBait 1.0"
+VERSION_ID="44"
+PRETTY_NAME="robloxosrael2027nocikbait"
+VARIANT="Silverblue"
+VARIANT_ID=silverblue
 EOF
 
 cat > /etc/os-release << 'EOF'
 NAME="roblox-os-rael-2027-no-cik-bait"
 VERSION="6.7"
+ID=fedora
 ID_LIKE="fedora"
-VERSION_ID="1.0"
-PRETTY_NAME="RobloxOSRael2027NoCikBait 1.0"
+VERSION_ID="44"
+PRETTY_NAME="robloxosrael2027nocikbait"
+VARIANT="Silverblue"
+VARIANT_ID=silverblue
 EOF
 
 # Use a COPR Example:
