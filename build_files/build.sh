@@ -16,8 +16,10 @@ dnf5 install fastfetch -y
 dnf5 install hyfetch -y
 dnf5 install flatpak -y 
 
-flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-delete fedora
 flatpak install --system -y flathub org.vinegarhq.Sober
+flatpak install --system -y flathub org.vinegarhq.Vinegar
+
 echo "meow"
 cat > /usr/lib/os-release << 'EOF'
 NAME="roblox-os-rael-2027-no-cik-bait"
